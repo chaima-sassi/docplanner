@@ -1,0 +1,379 @@
+.line {
+  display: flex;
+}
+body{
+  margin: 0;
+}
+
+.line li {
+  list-style: none;
+  margin-left: 20px;
+}
+nav {
+  display: flex;
+  position:fixed;
+  justify-content: space-around;
+  width: 100%;
+  background-color: white;
+}
+.about-us {
+  color: #00b39b;
+  width: 77.33;
+  height: 30;
+  text-decoration: none;
+  font-family:roboto;
+  font-style: bold;
+}
+.career {
+  color: #ababab;
+  width: 77.33;
+  height: 30;
+  text-decoration: none;
+  font-family:roboto;
+  font-style: bold;
+}
+.career:hover {color: #00b39b;}
+.deparments {
+  color: #ababab;
+  width: 77.33;
+  height: 30;
+  text-decoration: none;
+  font-family:roboto;
+  font-style: bold;
+}
+.deparments:hover{color: #00b39b;}
+
+
+.lead-logo {
+  margin-left: 50%;
+}
+.title {
+  text-align: center;
+  color: #00b39b;
+  font-size: 2.125rem;
+  font-family:roboto;
+  font-weight: 400;
+  font-style: normal;
+}
+.paragraph{
+    display: flex;
+    justify-content:space-around;
+    margin: 0.8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    color:#747474;
+    font-family:roboto;
+    font-size: 16px;
+}
+
+
+.patients {
+    background-color: #00b39b;
+    width : 257px;
+        color:white;
+        border-radius: 5%;
+        margin: 10px;
+        height: 365px;
+    }
+    h1,h2{
+        color: white;
+        text-align: justify;
+        margin-left: 5%;
+        font-weight: lighter;
+    }
+.Doctors {
+    background-color: #3d83df;
+border-radius: 5%;
+    width: 257px;
+    margin: 10px;
+    height: 365px;
+
+
+}
+.clinics{
+    background-color: #747474;
+    width:257px;
+    border-radius: 5%;
+    margin: 10px;
+    height: 365px;
+
+}
+.blocks {
+    display: flex;
+    justify-content:center;
+}
+#country1{ 
+  width: 172;
+  height: 40;
+  background-color:#00b39b ;
+  border: none;
+  margin-top: 25%;
+  margin-left: 20%;
+  font-size: 20;
+  color: white;
+  font-family: roboto;
+  text-decoration: underline;
+}
+#country2{ 
+  width: 172;
+  height: 40;
+  background-color:#3d83df ;
+  border: none;
+  margin-top: 25%;
+  margin-left: 20%;
+  font-size: 20;
+  color: white;
+  font-family: roboto;
+  text-decoration: underline;
+}
+#country3{ 
+  width: 172;
+  height: 40;
+  background-color:747474 ;
+  border: none;
+  margin-top: 10%;
+  margin-left: 20%;
+  font-size: 20;
+  color: white;
+  font-family: roboto;
+  text-decoration: underline;
+}
+#country33{
+  width: 172;
+  height: 40;
+  background-color:747474 ;
+  border: none;
+  margin-top: 5%;
+  margin-left: 20%;
+  font-size: 20;
+  color: white;
+  font-family: roboto;
+  text-decoration: underline;
+  
+}
+.img{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.world{
+  size:20%
+}
+.global{
+  color: #00b39b;
+  font-family:Roboto;
+  width: 40%;
+    font-size:40px;
+    margin-left: 5%;
+    margin-top: 0%;
+    flex: 0.5;
+    
+}
+.logos{
+  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    size:small;
+    margin-right: 60;
+    flex: 0.5;
+    fill: #747474;
+}
+.logos:hover{color: #00b39b;}
+.chaima{
+  display: flex;
+  justify-content: space-between ;
+  margin-top: 5%;
+}
+.sassi{
+  display: flex;
+  justify-content:space-around;  
+  background:#c7f5ef;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  height: 600;
+}
+
+
+h5{
+  color: #747474;
+  text-align:center;
+}
+
+.wo{
+  font-family: Roboto;
+  color: #00b39b;
+  font-family: roboto;
+    font-weight: 150;
+    letter-spacing: -.3px;
+    margin-left: 20;
+    padding-top: 25px;
+
+}
+.wor{
+  font-family: Roboto;
+  color: #747474;
+  font-size: .875em;
+  margin-left: 20;
+
+}
+.hh{
+  color: #00b39b;
+  text-align: center;
+  font-size:.875em;
+}
+.leader{
+  background-color:#fff ;
+  width: 197px;
+  height: 250px;
+  font-weight: 400;
+    font-family: Robotof;
+    color: #747474;
+  size: 50%;
+    text-align: center;
+    margin-top: 5%;
+    margin-right:20%;
+    border-radius: 5%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.logos>svg{
+  width: 140px;
+  color: #747474;
+}
+.LA{
+  justify-content: space-around;
+  align-items: baseline;
+  width: 250px;
+  height: 300;
+}
+.MA{
+  justify-content: space-around;
+ align-items: baseline;
+ width: 250px;
+ height: 300;
+ margin-top: 2%;
+}.mooraba{
+display: flex;   
+margin-top: 3%;
+margin-left: 5%;
+justify-content: space-around;
+}
+.llgo{
+  display: block;
+  width: 400;
+  height: 300;
+  margin-top: 80;
+  margin-left: 100;
+}
+.imp{
+  color: #00b39b;
+  text-align: center;
+  font-family: roboto;
+  padding-top: 25px;
+  justify-content: center;
+}
+.impp{
+  font-size: .875em;
+    text-align: center;
+    color: #747474;
+    font-family: roboto;
+    padding: 25px;
+}
+.improve{
+  justify-content: center;
+  justify-items: center;
+}
+.photos{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+/*margin-left: 20%;*/
+margin: 0px 100px;
+
+}
+.foot{
+  text-align: center;
+  color: #747474;
+  font-size: smaller;
+  font-family: roboto;
+  margin-top: 20;
+}
+.card{
+  width: 311px;
+  height: auto;
+  border-radius: 5%;
+  
+  margin-bottom: 25px;
+  
+}
+.card-text{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-text>h3{
+  text-align: none;
+  color: #747474;
+}
+.cardsbotton{
+  background-color: #3d83df;
+  color: #fff;
+  margin-top: 10;
+  border: none;
+  font-size: .625rem;
+    padding: 1em 1.5em;
+}
+.bottn{
+  background-color: #3d83df;
+  color: #fff;
+  justify-content: center;
+  font-size: 15;
+    padding: 14 18;
+    margin:50;
+    width: 170;
+    display: inline-block;
+}
+.uss{
+  text-align: center;
+  color: black;
+  justify-content: center;
+}
+.us{
+ text-align: center;
+}
+
+
+
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+
+}
+ul li {display: inline-block;}
+ul li:hover {background: white;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+  box-shadow: inset 0 0 rgb(230, 223, 189), 0 0 2em rgb(243, 225, 225);
+  background: white;
+  height: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+ul li ul li { 
+  background: white; 
+  display: block; 
+  margin: 5px;
+  color: #ababab;
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: rgb(231, 236, 234); color: #00b39b;}
